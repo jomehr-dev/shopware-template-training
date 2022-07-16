@@ -1,6 +1,6 @@
 {
-  "name": "swag/theme-skeleton",
-  "description": "Theme skeleton plugin",
+  "name": "jomehr/template-training",
+  "description": "Template Training Plugin",
   "type": "shopware-platform-plugin",
   "license": "MIT",
   "autoload": {
@@ -11,8 +11,8 @@
   "extra": {
     "shopware-plugin-class": "TemplateTraining\\TemplateTraining",
     "label": {
-      "de-DE": "Theme TemplateTraining plugin",
-      "en-GB": "Theme TemplateTraining plugin"
+      "de-DE": "Theme TemplateTraining",
+      "en-GB": "Theme TemplateTraining"
     }
   }
 }

@@ -18,5 +18,25 @@
   "asset": [
     "@Storefront",
     "app/storefront/src/assets"
-  ]
+  ],
+  "config": {
+    "fields": {
+      "sw-logo-desktop": {
+        "value": "app/storefront/src/assets/logo_dark.png",
+        "type": "media"
+      },
+      "sw-logo-tablet": {
+          "value": "app/storefront/src/assets/logo_dark.png",
+          "type": "media"
+      },
+      "sw-logo-mobile": {
+        "value": "app/storefront/src/assets/logo_dark.png",
+        "type": "media"
+      },
+      "sw-logo-share": {
+        "value": "app/storefront/src/assets/logo_dark.png",
+        "type": "media"
+      }
+    }
+  }
 }

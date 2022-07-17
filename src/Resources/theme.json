@@ -20,7 +20,51 @@
     "app/storefront/src/assets"
   ],
   "config": {
+    "blocks": {
+        "settings": {
+            "label": {
+              "en-GB": "Color Settings",
+              "de-DE": "Farbeinstellung"
+            }
+        }
+    },
+    "sections": {
+        "overridenVariables": {
+            "label": {
+                "en-GB": "Overriden Variables",
+                "de-DE": "Überschriebene Variablen"
+            }
+        },
+        "newVariables": {
+            "label": {
+                "en-GB": "New Variables",
+                "de-DE": "Neue Variablen"
+            }
+        }
+    },
     "fields": {
+        "sw-color-brand-primary": {
+            "label": {
+                "en-GB": "Primary Color",
+                "de-DE": "Hauptfarbe"
+            },
+            "type": "color",
+            "editable": true,
+            "block": "settings",
+            "section": "overridenVariables",
+            "value": "#FF008C"
+        },
+        "cardColor": {
+            "label": {
+                "en-GB": "Card Color",
+                "de-DE": "Kartenfarbe"
+            },
+            "type": "color",
+            "editable": true,
+            "block": "settings",
+            "section": "newVariables",
+            "value": "#D8DEE6"
+        },
       "sw-logo-desktop": {
         "value": "app/storefront/src/assets/logo_dark.png",
         "type": "media"
